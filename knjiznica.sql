@@ -9,27 +9,27 @@ create database knjiznica;
 use knjiznica;
 
 create table autor(
-    sifra int not null primary key auto_increment,
+    sifra int,
     ime varchar(50),
     prezime varchar(50),
     datumrodenja datetime
 );
 
 create table izdavac(
-    sifra int not null primary key auto_increment,
+    sifra int,
     naziv varchar(50),
     aktivan boolean
 );
 
 create table mjesto(
-    sifra int not null primary key auto_increment,
+    sifra int,
     naziv varchar(50),
     postanskiBr varchar(10),
     drzava varchar(50)
 );
 
 create table katalog(
-    sifra int not null primary key auto_increment,
+    sifra int,
     autor int,
     naslov varchar(50),
     izdavac int,
