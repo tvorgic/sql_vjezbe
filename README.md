@@ -1,2 +1,2 @@
 # sql_vjezbe
- vjezbe s preddavanja
+ vjezbe s predavanja
