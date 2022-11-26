@@ -5,7 +5,8 @@
 # c:\xampp\mysql\bin\mysql -uroot < C:\Users\Tonko\Documents\edunovapp26\SQL\vjezbe\sql_vjezbe\knjiznica.sql
 
 drop database if exists knjiznica;
-create database knjiznica;
+##Klijent pokrenuti s --default-character-set=utf8 
+create database knjiznica DEFAULT CHARACTER SET utf8  DEFAULT COLLATE utf8_general_ci;
 use knjiznica;
 
 create table autor(
@@ -62,8 +63,8 @@ create table izdavac(
 create table mjesto(
     sifra int not null primary key,
     naziv varchar(50) not null,
-    postanskiBr varchar(10) not null,
-    drzava varchar(50) not null
+    postanskiBr varchar(10)
+    
 );
 
 create table katalog(
@@ -80,3 +81,34 @@ alter table katalog add foreign key (izdavac) references izdavac(sifra);
 alter table katalog add foreign key (mjesto) references mjesto(sifra);
 
 create index naziv_index on katalog(naslov);
+
+#insert odnosno unos podataka
+
+#mjesto
+
+insert into mjesto (sifra, naziv, postanskiBr)
+            values (1, 'Zagreb', 10000);
+
+insert into mjesto (sifra, naziv, postanskiBr)
+            values (2, 'Rijeka', 51000);
+
+insert into mjesto (sifra, naziv, postanskiBr)
+            values (3, 'Osijek', 31000);
+
+#autor
+
+insert into autor (sifra, ime, prezime, datumrodenja)
+           values (1, 'Ivana', 'Brlić Mažuranić', 1874-04-18);
+
+insert into autor (sifra, ime, prezime, datumrodenja)
+           values (2, 'August', 'Šenoa', 1838-11-14);
+
+insert into autor (sifra, ime, prezime, datumrodenja)
+           values (3, 'Robert', 'Perišić', null);
+
+#izdavač
+
+
+
+
+
