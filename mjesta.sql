@@ -1,3 +1,4 @@
+c:\xampp\mysql\bin\mysql -uroot < C:\Users\Tonko\Documents\edunovapp26\SQL\vjezbe\sql_vjezbe\mjesta.sql
 drop database if exists mjesta;
 create database mjesta character set utf8;
 use mjesta;

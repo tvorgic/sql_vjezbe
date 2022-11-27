@@ -1,3 +1,19 @@
+# ljestve (hash) je komentar i on se ne izvodi
+# Izvođenje naredbi na serveru
+# Otvoriti CMD
+# Zaljepiti sljedeću naredbu bez prvog hash znaka
+# c:\xampp\mysql\bin\mysql -uroot < C:\Users\Tonko\Documents\edunovapp26\SQL\vjezbe\sql_vjezbe\knjiznica.sql
+
+#drop database if exists knjiznica;
+##Klijent pokrenuti s --default-character-set=utf8 
+#create database knjiznica DEFAULT CHARACTER SET utf8  DEFAULT COLLATE utf8_general_ci;
+#use knjiznica;
+
+
+
+
+
+
 # prošli puta radili
 select * from smjer;
 
