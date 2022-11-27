@@ -108,6 +108,41 @@ insert into autor (sifra, ime, prezime, datumrodenja)
 
 #izdavač
 
+insert into izdavac(sifra, naziv)
+            values(1, 'Hrvatska revija');
+
+insert into izdavac(sifra, naziv)
+            values(2, 'Lavandel og rosmarin');
+
+insert into izdavac(sifra, naziv)
+            values(3, 'Rijec');
+
+insert into izdavac(sifra, naziv)
+            values(4, 'Biblioteka ON LINE');
+
+insert into izdavac(sifra, naziv)
+            values(5, 'Hrvatski pedagoški književni zbor');
+
+
+#katalog
+
+insert into katalog(sifra, autor, naslov, izdavac, mjesto, cijena)
+            values (1, 1, 'Mir u dusi', 1, 1, '45,9' );
+
+insert into katalog(sifra, autor, naslov, izdavac, mjesto, cijena)
+            values (2, 1, 'Price iz davnine', 2, 2, '99,95' );
+
+insert into katalog(sifra, autor, naslov, izdavac, mjesto, cijena)
+            values (3, 1, 'Cudnovate zgode segrta Hlapica', 5, 1, '55,4' );
+
+insert into katalog(sifra, autor, naslov, izdavac, mjesto, cijena)
+            values (4, 2, 'Cuvaj se senjske ruke', 3, 3, '65,9' );
+
+insert into katalog(sifra, autor, naslov, izdavac, mjesto, cijena)
+            values (5, 2, 'Zlatarevo zlato', 3, 3, '85,9' );
+
+insert into katalog(sifra, autor, naslov, izdavac, mjesto, cijena)
+            values (6, 3, 'Kultura u predgrađu', 4, 2, '45,9' );
 
 
 
