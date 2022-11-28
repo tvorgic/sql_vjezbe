@@ -155,16 +155,20 @@ where datumpocetka is null;
 # Koliko mjesta u hrvatskoj bi bili
 # pobjednici igre kaladont?
 
+#select * from mjesta
+#where naziv like '%nt';
 
 # Baza Knjižnica
 
 # Izlistajte sve autore koji su rođeni
 # 1980 godine
-
+#select * from knjiznica
+#where datumrodenja = '1980-01-01';
 
 # Dečka je ostavila cura, jadan pati
 # što bi mu preporučili za čitanje
-
+#select * from katalog
+#where naslov like '%ljubav%';
 
 # Izlistajte sve izdavače koji su 
 # društvo s ograničenom odgovornošću
@@ -175,3 +179,4 @@ where datumpocetka is null;
 
 
 # unesite sebe kao autora
+
