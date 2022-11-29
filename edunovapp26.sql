@@ -2,7 +2,7 @@
 # Izvođenje naredbi na serveru
 # Otvoriti CMD
 # Zaljepiti sljedeću naredbu bez prvog hash znaka
-# c:\xampp\mysql\bin\mysql -uroot --default_character_set=utf8 < C:\Users\dell\Documents\EdunovaPP26\SQL\skriptapp26.sql
+# c:\xampp\mysql\bin\mysql -uroot --default_character_set=utf8 < C:\Users\Tonko\Documents\edunovapp26\SQL\vjezbe\sql_vjezbe\edunovapp26.sql
 
 # Kada putanja ima razmak onda se putanja stavlja pod navodnike
 # c:\xampp\mysql\bin\mysql -uroot --default_character_set=utf8 < "C:\Users\dell\Documents\Edunova PP26\SQL\skriptapp26.sql"
