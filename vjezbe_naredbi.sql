@@ -172,11 +172,14 @@ where datumpocetka is null;
 
 # Izlistajte sve izdavače koji su 
 # društvo s ograničenom odgovornošću
-
+#select * from katalog k
+#where izdavac like '%d.o.o%';
 
 # Obrišite sve kataložne 
 # zapise koji govore o smrti
 
-
+#select * from katalog 
+#where naslov like '%smrt%';
 # unesite sebe kao autora
+#insert into autor (sifra, ime, prezime, datumrodenja) values (4, 'Tonko', 'Vorgic', null);
 

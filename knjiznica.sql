@@ -106,6 +106,11 @@ insert into autor (sifra, ime, prezime, datumrodenja)
 insert into autor (sifra, ime, prezime, datumrodenja)
            values (3, 'Robert', 'Perišić', null);
 
+insert into autor (sifra, ime, prezime, datumrodenja)
+           values (4, 'Tonko', 'Vorgic', null);
+
+
+
 #izdavač
 
 insert into izdavac(sifra, naziv)
