@@ -22,7 +22,8 @@ create table normativ(
     sifra int not null primary key,
     recept int,
     sastojak int,
-    jedinica_mjere int
+    jedinica_mjere int,
+    kolicina varchar(50)
     
 );
 
@@ -40,7 +41,8 @@ create table chef(
 );
 
 create table jedinica_mjere(
-    sifra int not null primary key
+    sifra int not null primary key,
+    naziv varchar(50)
 );
 
 #veze između tablica
