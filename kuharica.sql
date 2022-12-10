@@ -23,7 +23,7 @@ create table normativ(
     recept int,
     sastojak int,
     jedinica_mjere int,
-    kolicina varchar(50)
+    kolicina decimal(4,2)
     
 );
 
