@@ -14,7 +14,7 @@ create table recept(
     sifra int not null primary key,
     naziv varchar(50) not null,
     opis varchar(50) not null,
-    vrijeme_izrade datetime,
+    vrijeme_izrade varchar(50),
     chef int
 );
 
@@ -72,5 +72,13 @@ alter table normativ add foreign key (jedinica_mjere) references jedinica_mjere(
 #drop table sastojak;
 #drop table jedinica_mjere;
 #drop table chef;
+
+#recept
+#pokušati staviti vrijeme izrade na varchar
+
+insert into recept(sifra, naziv, opis, vrijeme_izrade, chef)
+            values(1,'Carbonara', '1. Skuhati tjesteninu, 2. Narezati slaninu i staviti u posudu sa malo maslinovog ulja i maslaca,
+             3. U drugoj posudi pomijesati tri zumanjka i jedno cijelo jaje,
+             4. Dodati tjesteninu u posudu sa slaninom i preliti sa jajima, 5. Lagano promješati', '20 min', null );
 
 
