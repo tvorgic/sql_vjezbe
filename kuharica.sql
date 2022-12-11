@@ -75,10 +75,26 @@ alter table normativ add foreign key (jedinica_mjere) references jedinica_mjere(
 
 #recept
 #pokušati staviti vrijeme izrade na varchar
+#što napraviti sa atributom chef?!
 
 insert into recept(sifra, naziv, opis, vrijeme_izrade, chef)
             values(1,'Carbonara', '1. Skuhati tjesteninu, 2. Narezati slaninu i staviti u posudu sa malo maslinovog ulja i maslaca,
              3. U drugoj posudi pomijesati tri zumanjka i jedno cijelo jaje,
              4. Dodati tjesteninu u posudu sa slaninom i preliti sa jajima, 5. Lagano promješati', '20 min', null );
+
+insert into recept(sifra, naziv, opis, vrijeme_izrade, chef)
+            values(2, 'Cannelini all ucelleto', '1. Rukom zgnjecite cesnjak, narežite chili i ubacite u tavu, zatim dodajte maslinovo ulje i passatu
+            . kuhajte 5 min i po potrebii dodajte sol i papar. dodajte i 5 listica kadulje. 2. Dodajte grah u tavi i lagano mjesajte. 3. Na drugoj tavi
+            przite slaninu', '15min', null);
+
+insert into recept(sifra, naziv, opis, vrijeme_izrade, chef)
+            values(3, 'Hey pesto!', '1. Stavite kuhati tjesteninu. 2. Dok se tjestenina kuha u blender ubacite cesnjak i saku pinjola ili badema. Kada 
+            sameljete dodajte rukohvat bosiljka, malo soli i papra te maslinovog ulja po zelji. nakon toga dodajte i parmezan sir 3. Pesto prelijte
+             preko tjestenine', '15min', null);
+
+
+
+
+
 
 
