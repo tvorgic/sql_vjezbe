@@ -76,11 +76,12 @@ alter table normativ add foreign key (jedinica_mjere) references jedinica_mjere(
 #recept
 #pokušati staviti vrijeme izrade na varchar
 #što napraviti sa atributom chef?!
+#kako napraviti escape sign
 
 insert into recept(sifra, naziv, opis, vrijeme_izrade, chef)
             values(1,'Carbonara', '1. Skuhati tjesteninu, 2. Narezati slaninu i staviti u posudu sa malo maslinovog ulja i maslaca,
              3. U drugoj posudi pomijesati tri zumanjka i jedno cijelo jaje,
-             4. Dodati tjesteninu u posudu sa slaninom i preliti sa jajima, 5. Lagano promješati', '20 min', null );
+             4. Dodati tjesteninu u posudu sa slaninom i preliti sa jajima, 5. Lagano promjesati', '20 min', null );
 
 insert into recept(sifra, naziv, opis, vrijeme_izrade, chef)
             values(2, 'Cannelini all ucelleto', '1. Rukom zgnjecite cesnjak, narežite chili i ubacite u tavu, zatim dodajte maslinovo ulje i passatu
