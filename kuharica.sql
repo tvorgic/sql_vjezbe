@@ -144,6 +144,17 @@ insert into chef(sifra, ime, prezime, razina)
 
 
 
+#jedinica_mjere
+
+
+insert into jedinica_mjere(sifra, naziv)
+            values(1, 'kg'),
+                  (2, 'l'),
+                  (3, 'kom');
+
+
+
+
 
 
 
