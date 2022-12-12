@@ -86,12 +86,61 @@ insert into recept(sifra, naziv, opis, vrijeme_izrade, chef)
 insert into recept(sifra, naziv, opis, vrijeme_izrade, chef)
             values(2, 'Cannelini all ucelleto', '1. Rukom zgnjecite cesnjak, narežite chili i ubacite u tavu, zatim dodajte maslinovo ulje i passatu
             . kuhajte 5 min i po potrebii dodajte sol i papar. dodajte i 5 listica kadulje. 2. Dodajte grah u tavi i lagano mjesajte. 3. Na drugoj tavi
-            przite slaninu', '15min', null);
+         przite slaninu', '15min', null);
 
 insert into recept(sifra, naziv, opis, vrijeme_izrade, chef)
             values(3, 'Hey pesto!', '1. Stavite kuhati tjesteninu. 2. Dok se tjestenina kuha u blender ubacite cesnjak i saku pinjola ili badema. Kada 
             sameljete dodajte rukohvat bosiljka, malo soli i papra te maslinovog ulja po zelji. nakon toga dodajte i parmezan sir 3. Pesto prelijte
              preko tjestenine', '15min', null);
+
+
+#normativ
+
+insert into normativ(sifra, recept, sastojak, jedinica_mjere, kolicina)
+            values(1, 1, null, null, '0.5');
+
+insert into normativ(sifra, recept, sastojak, jedinica_mjere, kolicina)
+            values(2, 2, null, null, '0.5');
+
+insert into normativ(sifra, recept, sastojak, jedinica_mjere, kolicina)
+            values(3, 3, null, null, '0.5');
+
+
+# sastojak
+
+insert into sastojak(sifra, naziv)
+            values(1, 'Tjestenina'),
+                  (2, 'Jaja'),
+                  (3, 'Maslac'),
+                  (4,'Slanina'),
+                  (5, 'Cesnjak'),
+                  (6, 'Chili'),
+                  (7, 'Maslinovo ulje'),
+                  (8, 'Passata'),
+                  (9, 'Sol'),
+                  (10, 'Papar'),
+                  (11, 'Kadulja'),
+                  (12, 'Grah'),
+                  (13, 'Pinjoli'),
+                  (14, 'Bademi'),
+                  (15, 'Bosiljak'),
+                  (16, 'Parmezan'),
+                  (17, 'Pesto')
+                  ;
+
+#chef
+
+#Zar je zbilja potrebno tri puta unositi istog chefa?
+
+insert into chef(sifra, ime, prezime, razina)
+            values(1, 'Gennaro', 'Contaldo', 'Head Chef');
+
+insert into chef(sifra, ime, prezime, razina)
+            values(2, 'Gennaro', 'Contaldo', 'Head Chef');
+
+insert into chef(sifra, ime, prezime, razina)
+            values(3, 'Gennaro', 'Contaldo', 'Head Chef');
+
 
 
 
