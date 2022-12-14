@@ -95,7 +95,7 @@ insert into recept(sifra, naziv, opis, vrijeme_izrade, chef)
 
 
 #normativ
-
+#obrnuti redosljed!!!!!
 insert into normativ(sifra, recept, sastojak, jedinica_mjere, kolicina)
             values(1, 1, null, null, '0.5');
 
